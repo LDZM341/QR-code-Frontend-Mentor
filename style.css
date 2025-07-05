@@ -12,15 +12,7 @@ img{
     height: 288px;
     margin: 16px 16px 0 16px;
     border-radius: 10px;
-    z-index: 1;
-    cursor: pointer;
-    transition: 0s ease-in-out;
-}
-
-.imgLink:active img, .imgLink:focus img{
-    transform:scale(2.7);
-    position: fixed;
-    top:300px;
+     
 }
 
 button{
@@ -43,14 +35,8 @@ button{
     height: 499px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    transition: all 2s ease;
 }
 
-.main-div:hover{
-    border-bottom: 4px solid #343e4c;
-    border-right: 4px solid #343e4c;
-    transition: all 0s linear;
-}
 
 #title{
     font-family: "Outfit";
